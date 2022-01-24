@@ -88,7 +88,7 @@ if (isset($_SESSION['verified_user_id']))
 			<div class="data" style="margin-top: -20px;">
 				<label>Password: </label>
 				<input type="password" name="password" placeholder="Enter Password" required style="height:60% !important;">
-				<div style="font-size:10px">Note: Password must be a combination of at least 8 characters. Eg: P@55w0rd </div>
+				<div style="font-size:10px">Note: Password must be a combination of at least 8 characters. </div>
 				
 			</div>
 			
