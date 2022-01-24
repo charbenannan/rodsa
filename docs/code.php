@@ -162,7 +162,7 @@ if($createdUser)
         'reg_num' => $reg_num,
         'available' => $in_station,
     ];
-    $ref_table ="vehicles";
+    $ref_table = .$sname."vehicles";
 $postRef_result = $database->getReference($ref_table)->push($postData);
 
     //check the status of the result
