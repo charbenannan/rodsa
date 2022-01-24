@@ -84,9 +84,9 @@ include('authentication.php');
 			<?php
 			include('dbcon.php');
 			$ref_table = 'complaints';
-			$total_vehicles = $database->getReference($ref_table )->getSnapshot()->numChildren();
+			$total_complaints = $database->getReference($ref_table )->getSnapshot()->numChildren();
 			
-			echo $total_vehicles;
+			echo $total_complaints;
 			?><br/><span>Complaints</span></p>
 		<i class="fa fa-message box-icon"></i>
 	</div>
@@ -98,9 +98,9 @@ include('authentication.php');
 			<?php
 			include('dbcon.php');
 			$ref_table = 'maintenace';
-			$total_vehicles = $database->getReference($ref_table )->getSnapshot()->numChildren();
+			$total_maintenance = $database->getReference($ref_table )->getSnapshot()->numChildren();
 			
-			echo $total_vehicles;
+			echo $total_maintenance;
 			?><br/><span>Maintenace</span></p>
 		<i class="fa fa-screwdriver-wrench box-icon"></i>
 </div>
