@@ -92,7 +92,7 @@ if (isset($_SESSION['verified_user_id']))
 				<div style="font-size:10px">Eg: P@55w0rd</div>
 			</div>
 			
-			<div class="btn" style="margin-top: -30px;">
+			<div class="btn" style="margin-top: -20px;">
 				<div class="inner"></div>
 				<button type="submit" name="save_station">Sign Up</button>
 			</div>
