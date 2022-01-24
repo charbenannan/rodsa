@@ -97,7 +97,7 @@ include('authentication.php');
 		<p>
 			<?php
 			include('dbcon.php');
-			$ref_table = 'maintenace';
+			$ref_table = 'maintenance';
 			$total_maintenance = $database->getReference($ref_table )->getSnapshot()->numChildren();
 			
 			echo $total_maintenance;
