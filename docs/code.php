@@ -213,7 +213,7 @@ $postRef_result = $database->getReference($ref_table)->push($postData);
 if (isset($_POST['available_btn'])) {
      $del_id = $_POST['available_btn'];
 
-     $ref_table = 'vehicles/'.$del_id;
+     $ref_table = 'maintenance/'.$del_id;
      $deletequery_result = $database->getReference($ref_table)->remove();
 
       if ( $deletequery_result){
