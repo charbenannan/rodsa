@@ -218,7 +218,7 @@ if (isset($_POST['available_btn'])) {
 
       if ( $deletequery_result){
         $_SESSION['status'] = "Vehicle Available For Work Now";
-        header('Location: maintenanace.php');
+        header('Location: maintenance.php');
     }
     else{
         $_SESSION['status'] = "Vehicle Couldn't Be Cleared To Work";
