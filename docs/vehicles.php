@@ -158,7 +158,20 @@ include('authentication.php');
 			</div>
 </div>
  
+		<?php
+					include('dbcon.php');
 
+					if(isset($_POST['in_station'])){
+						$in_station = $_POST['in_station'];
+						$database = $auth -> prepare("Insert Into vehicles)
+						values(:in_station)");
+						$auth->beginTransaction();
+						$database ->execute(array(':in_station'=> $in_station));
+						$auth ->commit(); 
+
+					}
+					
+					?>
 	
 	<div class="center">
 		<input type="checkbox" id="show">
