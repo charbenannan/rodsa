@@ -42,9 +42,9 @@
 			<h3 >RODSA <span><br>Administrator </span></h3>
 			<ul>
 				<?php if(!isset($_SESSION['verified_user_id'])): ?>
-				<li><img src="images/edit_profile.png"><a href="edit-profile.php"> Edit Profile </a></li>
+				<!--<li><img src="images/edit_profile.png"><a href="edit-profile.php"> Edit Profile </a></li>
 				<li><img src="images/help.png"><a href="#"> Help </a></li>
-				<li><img src="images/contact.png"><a href="#"> Contact </a></li>
+				<li><img src="images/contact.png"><a href="#"> Contact </a></li>-->
 				<li><img src="images/logout.png"><a href="logout.php">Logout </a></li><br>
 			<?php endif; ?>
 			</ul>
